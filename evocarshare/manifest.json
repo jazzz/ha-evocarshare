@@ -1,0 +1,18 @@
+{
+  "domain": "evocarshare",
+  "name": "EVO CarShare",
+  "codeowners": [
+    "@jazzz"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/jazzz/ha-evocarshare",
+  "homekit": {},
+  "iot_class": "local_push",
+  "requirements": [
+    "evocarshare @ git+https://github.com/jazzz/evocarshare-py"
+  ],
+  "ssdp": [],
+  "version": "0.0.1",
+  "zeroconf": []
+}

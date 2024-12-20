@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "zone",
+  "data": {
+    "items": [
+      {
+        "id": "work",
+        "latitude": 49.278154186651506,
+        "longitude": -123.10265958309175,
+        "name": "Work",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 100.0
+      }
+    ]
+  }
+}

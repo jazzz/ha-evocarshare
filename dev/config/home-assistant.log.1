@@ -1,0 +1,25 @@
+2024-12-20 00:16:36.300 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration evocarshare which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-12-20 00:16:37.626 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2024-12-20 00:16:39.198 ERROR (MainThread) [homeassistant.setup] Setup failed for go2rtc: Integration not found.
+2024-12-20 00:16:49.422 WARNING (Recorder) [homeassistant.components.recorder.migration] Database is about to upgrade from schema version: 47 to: 42
+2024-12-20 00:16:49.461 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=330 from 2024-12-20 08:15:19.328226)
+2024-12-20 00:17:25.596 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [281472843404736] Error handling message: Unknown error (unknown_error) dev_admin from 172.24.0.1 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/decorators.py", line 26, in _handle_async_response
+    await func(hass, connection, msg)
+  File "/usr/src/homeassistant/homeassistant/components/frontend/__init__.py", line 710, in websocket_get_translations
+    resources = await async_get_translations(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/translation.py", line 320, in async_get_translations
+    cached = await cache.async_fetch(language, category, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/translation.py", line 211, in async_fetch
+    await self._async_load(language, components_to_load)
+  File "/usr/src/homeassistant/homeassistant/helpers/translation.py", line 232, in _async_load
+    raise int_or_exc
+homeassistant.loader.IntegrationNotFound: Integration 'go2rtc' not found.
+2024-12-20 00:17:49.319 DEBUG (MainThread) [custom_components.evocarshare.coordinator] Finished fetching evocarshare data in 0.992 seconds (success: True)
+2024-12-20 00:17:49.325 DEBUG (MainThread) [custom_components.evocarshare.sensor] ValueUpdate: home_evo_count:0
+2024-12-20 00:17:49.332 DEBUG (MainThread) [custom_components.evocarshare.sensor] ValueUpdate: home_evo_closest:380
+2024-12-20 00:17:49.333 DEBUG (MainThread) [custom_components.evocarshare.sensor] ValueUpdate: work_evo_count:0
+2024-12-20 00:17:49.335 DEBUG (MainThread) [custom_components.evocarshare.sensor] ValueUpdate: work_evo_closest:243

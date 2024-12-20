@@ -1,0 +1,670 @@
+{
+  "version": 1,
+  "minor_version": 12,
+  "key": "core.entity_registry",
+  "data": {
+    "entities": [
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dawn",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0130327c56be8ffb22186a3f7edfc798",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dawn",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dawn",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-next_dawn",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dusk",
+        "hidden_by": null,
+        "icon": null,
+        "id": "163882f32930b6d8e4a254743086e7b5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dusk",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dusk",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-next_dusk",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_midnight",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ba0fdc1e4ef22a607d47db9f629b4312",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next midnight",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_midnight",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-next_midnight",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_noon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2007fe1e8d82358401827ef57407fae1",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next noon",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_noon",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-next_noon",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6b6149c021d318fe2048be349098c4cb",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_rising",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-next_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_setting",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6390caf30a551df1462356a916279629",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next setting",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_setting",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-next_setting",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_elevation",
+        "hidden_by": null,
+        "icon": null,
+        "id": "baa7c8102828846afc0678db3089db99",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:theme-light-dark",
+        "original_name": "Solar elevation",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_elevation",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-solar_elevation",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_azimuth",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a7e8a59f6be600662e79962c8d004c0e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sun-angle",
+        "original_name": "Solar azimuth",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_azimuth",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-solar_azimuth",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QT8VWHWKSK23Q2470F3YC",
+        "device_class": null,
+        "device_id": "70e75e522b49c47a7a776a311973ea19",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "386f87ba06072ee25ca85672d0fd1805",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Solar rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_rising",
+        "unique_id": "01JC3QT8VWHWKSK23Q2470F3YC-solar_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "person.dev_admin",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5ca3023ddc0bc2c68486116a521b020b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "dev_admin",
+        "platform": "person",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "dev_admin",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QVWG1F3BDJ4C529Y50Z8K",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "todo.shopping_list",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b794507193e4ee19612e1199cd6d1661",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cart",
+        "original_name": "Shopping List",
+        "platform": "shopping_list",
+        "supported_features": 15,
+        "translation_key": "shopping_list",
+        "unique_id": "01JC3QVWG1F3BDJ4C529Y50Z8K",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QVWGAR3H3Y6D9BC60JEJX",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "tts.google_translate_en_com",
+        "hidden_by": null,
+        "icon": null,
+        "id": "73dc06f26b0ff57bfc1625d39d5dd25a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Google en com",
+        "platform": "google_translate",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "01JC3QVWGAR3H3Y6D9BC60JEJX",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "01JC3QVWJM8K3RC6TGMXVYGQ9Z",
+        "device_class": null,
+        "device_id": "e6fb780138ad982034b01b90b34a5f07",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "weather.forecast_home",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7062323f7283f9f9f14731f36fb2c045",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home",
+        "platform": "met",
+        "supported_features": 3,
+        "translation_key": null,
+        "unique_id": "home",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "zone.work",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9f11568eee4482869edd1106b19f1f40",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          },
+          "collection": {
+            "hash": "edafeb10e6da15cc9c87a7ce495a22c9"
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:map-marker",
+        "original_name": "Work",
+        "platform": "zone",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "work",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "01a67c3a948e8ca5da81b19b31e8548e",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.work_evo_count",
+        "hidden_by": null,
+        "icon": null,
+        "id": "fc3a7b18036c62064789c21ede8d5474",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Work Evo Count",
+        "platform": "evocarshare",
+        "supported_features": 0,
+        "translation_key": "count",
+        "unique_id": "work_evo_count",
+        "previous_unique_id": null,
+        "unit_of_measurement": "Evos"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "01a67c3a948e8ca5da81b19b31e8548e",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.work_evo_distance",
+        "hidden_by": null,
+        "icon": null,
+        "id": "80e6c4b62eae15138682a48d00b79996",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "distance",
+        "original_icon": null,
+        "original_name": "Work Evo Distance",
+        "platform": "evocarshare",
+        "supported_features": 0,
+        "translation_key": "distance",
+        "unique_id": "work_evo_closest",
+        "previous_unique_id": null,
+        "unit_of_measurement": "m"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "53f72ed71316129107d8336d0510a03e",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.home_evo_count",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9742c97441ade51165ebb9aecc4b2196",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home Evo Count",
+        "platform": "evocarshare",
+        "supported_features": 0,
+        "translation_key": "count",
+        "unique_id": "home_evo_count",
+        "previous_unique_id": null,
+        "unit_of_measurement": "Evos"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "53f72ed71316129107d8336d0510a03e",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_evo_distance",
+        "hidden_by": null,
+        "icon": null,
+        "id": "55c69f69cb57b6c9c3ed73c867596c14",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "distance",
+        "original_icon": null,
+        "original_name": "Home Evo Distance",
+        "platform": "evocarshare",
+        "supported_features": 0,
+        "translation_key": "distance",
+        "unique_id": "home_evo_closest",
+        "previous_unique_id": null,
+        "unit_of_measurement": "m"
+      }
+    ],
+    "deleted_entities": [
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.distance_to_closest_evo2",
+        "id": "b378aaf9170d147373bb25bf42fa3e80",
+        "orphaned_timestamp": 1731272560.1581645,
+        "platform": "evocarshare",
+        "unique_id": "distto"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.evocarshare_closest",
+        "id": "3b4c3512c38f3950b1dc53fca9899017",
+        "orphaned_timestamp": 1731281371.240551,
+        "platform": "evocarshare",
+        "unique_id": "closest"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.evocarshare_home_evo_distance",
+        "id": "e501f80d4377f5fdbfd8adc090a5175d",
+        "orphaned_timestamp": 1731284620.6858842,
+        "platform": "evocarshare",
+        "unique_id": "Home_evo_distance"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.home_evo_distance",
+        "id": "7fc77989eb6316f9b50f8fc3ba806b0a",
+        "orphaned_timestamp": 1731285160.759242,
+        "platform": "evocarshare",
+        "unique_id": "pewpew"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.home_evo_count",
+        "id": "9c18eb08e7598ce1c0e4d819bb78976c",
+        "orphaned_timestamp": 1731285663.7109149,
+        "platform": "evocarshare",
+        "unique_id": "prox"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.home_evo_count_2",
+        "id": "91242e854eef8b43945940ec477eef1c",
+        "orphaned_timestamp": 1731285663.7109149,
+        "platform": "evocarshare",
+        "unique_id": "Home_Evo_Count"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.home_evo_distance",
+        "id": "cbc3538fd1ec3dcf35b1202472a4b3b4",
+        "orphaned_timestamp": 1731285663.7109149,
+        "platform": "evocarshare",
+        "unique_id": "Home_Evo_Distance"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.work_evo_count",
+        "id": "e0b8ed8dcfc729df3c809938c787ada4",
+        "orphaned_timestamp": 1731285666.8687413,
+        "platform": "evocarshare",
+        "unique_id": "Work_Evo_Count"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.work_evo_distance",
+        "id": "4ffd4ef439491373cbd8b66204614d36",
+        "orphaned_timestamp": 1731285666.8687413,
+        "platform": "evocarshare",
+        "unique_id": "Work_Evo_Distance"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.home_evo_count",
+        "id": "8172ed8aae860bd0361439cc6ac8ac06",
+        "orphaned_timestamp": 1731285903.0411713,
+        "platform": "evocarshare",
+        "unique_id": "evo_count"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.home_evo_distance",
+        "id": "82dd32fa90188023d015b9842fe12bb8",
+        "orphaned_timestamp": 1731285903.0411713,
+        "platform": "evocarshare",
+        "unique_id": "evo_dist"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.work_evo_distance",
+        "id": "13f3a8de9d665380a5d1453a9545374e",
+        "orphaned_timestamp": 1734577723.7218149,
+        "platform": "evocarshare",
+        "unique_id": "work_evo_dist"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.home_evo_distance",
+        "id": "0664f38eab701596eb23215756a1972b",
+        "orphaned_timestamp": 1734577726.546254,
+        "platform": "evocarshare",
+        "unique_id": "home_evo_dist"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+evocarshare @ git+https://github.com/jazzz/evocarshare-py.git
+homeassistant>=2023.11

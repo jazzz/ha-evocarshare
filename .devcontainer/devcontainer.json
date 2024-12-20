@@ -1,0 +1,37 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+    "name": "HA-EvoCarShare DevEnv",
+    "dockerComposeFile": "../dev/docker-compose.yml",
+    "service": "homeassistant",
+    "workspaceFolder": "/config/custom_components/",
+    "postCreateCommand": ".devcontainer/postCreateCommand.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "editorconfig.editorconfig",
+                "github.vscode-pull-request-github",
+                "ms-azuretools.vscode-docker",
+                "ms-python.vscode-pylance",
+                "ms-vsliveshare.vsliveshare",
+                "ryanluker.vscode-coverage-gutters",
+                "tamasfe.even-better-toml",
+                "charliermarsh.ruff"
+            ],
+            "settings": {
+                "python.testing.pytestArgs": [
+                    "tests"
+                ],
+                "python.testing.unittestEnabled": false,
+                "python.testing.pytestEnabled": true,
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.testing.pytestPath": "/usr/local/bin/pytest",
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff",
+                    "editor.formatOnSave": true
+                }
+            }
+        }
+    }
+}
