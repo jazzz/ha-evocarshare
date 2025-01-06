@@ -1,6 +1,8 @@
 # Evo Car Share
 Integrates data from the EvoCarShare service into Homeassistant.
 
+Here is a minimalist example of the data shown as a `chip` where you can easily see, how many evos are nearby.
+![Example Usage](docs/assets/evo_baricon.png)
 
 ## Installation
 
