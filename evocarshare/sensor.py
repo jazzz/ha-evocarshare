@@ -79,7 +79,7 @@ class EvoProximityCountSensor(CoordinatorEntity, SensorEntity):
             zone_id = self.config_entry.data[CONF_ZONE]
             target_zone = get_zone_config(self.hass)[zone_id]
             target_ref_point = GpsCoord(
-                int(target_zone[LATITUDE]),
+                target_zone[LATITUDE],
                 target_zone[LONGITUDE],
             )
             proximity_distance = self.config_entry.data[CONF_RADIUS]
