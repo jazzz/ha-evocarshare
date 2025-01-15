@@ -27,7 +27,9 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
 
     if "coordinator" not in hass.data[DOMAIN]:
         websession = async_get_clientsession(hass)
-        hass.data[DOMAIN]["coordinator"] = EvoCarShareUpdateCoordinator(hass, websession)
+        hass.data[DOMAIN]["coordinator"] = EvoCarShareUpdateCoordinator(
+            hass, websession
+        )
 
     hass.data[DOMAIN]["config"][entry.entry_id] = entry
 
@@ -43,7 +45,9 @@ async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
 
     # If this is the last config entry also unload the Coordinator
     if "coordinator" in hass.data[DOMAIN] and not hass.data[DOMAIN]["config"]:
-        _LOGGER.debug("no configurations remaining - removing EvoCarShareUpdateCoordinator")
+        _LOGGER.debug(
+            "no configurations remaining - removing EvoCarShareUpdateCoordinator"
+        )
         hass.data[DOMAIN].pop("coordinator")
 
     return unload_ok
