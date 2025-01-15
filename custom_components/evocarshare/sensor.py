@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import logging
 
-from evocarshare import GpsCoord, Vehicle
 from homeassistant.components.sensor import (
     SensorDeviceClass,
     SensorEntity,
@@ -15,7 +14,18 @@ from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
-from .const import ATTR_CLOSEST, ATTR_COUNT, CONF_RADIUS, CONF_ZONE, COORD, DOMAIN, LATITUDE, LONGITUDE
+from evocarshare import GpsCoord, Vehicle
+
+from .const import (
+    ATTR_CLOSEST,
+    ATTR_COUNT,
+    CONF_RADIUS,
+    CONF_ZONE,
+    COORD,
+    DOMAIN,
+    LATITUDE,
+    LONGITUDE,
+)
 from .coordinator import EvoCarShareUpdateCoordinator
 from .helpers import get_zone_config
 
