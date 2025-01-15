@@ -10,7 +10,7 @@
   "homekit": {},
   "iot_class": "local_push",
   "requirements": [
-    "evocarshare @ git+https://github.com/jazzz/evocarshare-py"
+    "evocarshare"
   ],
   "ssdp": [],
   "version": "0.0.1",
