@@ -1,10 +1,16 @@
-# Evo Car Share
-Integrates data from the EvoCarShare service into Homeassistant.
 
-Here is a minimalist example of the data shown as a `chip` where you can easily see, how many evos are nearby.
+
+<img src="docs/assets/evo-thumbnail.png" alt="Alt Text" height="200" style="display: block; margin: 0 auto" >
+
+# Evo Car Share
+
+![Status](https://img.shields.io/badge/Project_status-Beta-yellow)
+
+An un-offical integration which brings data from the EvoCarShare service into Homeassistant.
+
 
 ![Example Usage](docs/assets/evo_baricon.png)
-
+Here is a minimalist example of the data shown as a `chip` where you can easily see, how many evos are nearby.
 ## Installation
 
 ✨ Install via HACS
