@@ -4,7 +4,10 @@
 
 # Evo Car Share
 
-![Status](https://img.shields.io/badge/Project_status-Beta-yellow)
+![Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjazzz%2Fha-evocarshare%2Frefs%2Fheads%2Fmain%2Fcustom_components%2Fevocarshare%2Fmanifest.json&query=%24.version&label=Version
+)
+[![Validate(HACS)](https://github.com/jazzz/ha-evocarshare/actions/workflows/hacs_validate.yaml/badge.svg)](https://github.com/jazzz/ha-evocarshare/actions/workflows/hacs_validate.yaml)
+[![Validate(hassfest)](https://github.com/jazzz/ha-evocarshare/actions/workflows/hass_validate.yaml/badge.svg?branch=main)](https://github.com/jazzz/ha-evocarshare/actions/workflows/hass_validate.yaml)
 
 An un-offical integration which brings data from the EvoCarShare service into Homeassistant.
 
